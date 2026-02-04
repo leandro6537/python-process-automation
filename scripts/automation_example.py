@@ -34,7 +34,7 @@ def gerar_relatorio(dados, arquivo_saida):
         escritor.writerows(dados)
 
 def main():
-    arquivo_entrada = 'dados.csv'
+    arquivo_entrada = 'scripts/dados.csv'
     arquivo_saida = 'relatorio.csv'
 
     dados = ler_arquivo_csv(arquivo_entrada)
